@@ -12,7 +12,7 @@ import './App.css';
 
 export function App() {
   const { darkTheme } = useContext(ThemeContext);
-
+  
   return (
     <CartContextProvider>
       <div className={darkTheme ? "oscuro" : "luz"}>
@@ -24,7 +24,7 @@ export function App() {
             <Route path='/detalle/:id' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/checkout' element={<Checkout />} />
-            <Route path='*' element={<h1 className="error-pagina">Ey! te perdiste, volve al inicio y compra!</h1>} />
+            <Route path='*' element={<h1 className="error-pagina">¡Ey! Te perdiste, vuelve al inicio y compra.</h1>} />
           </Routes>
         </BrowserRouter>
       </div>

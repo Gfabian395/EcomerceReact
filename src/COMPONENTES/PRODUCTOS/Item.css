@@ -1,0 +1,57 @@
+/* Articulo.css */
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: #E0F2F1; /* color similar a #03A678 */
+    border-radius: 8px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 16px;
+}
+
+.texto-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #02735E;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.imagen-producto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.boton-detalles {
+    background-color: #03A678;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.boton-detalles:hover {
+    background-color: #02735E;
+}
+
+.enlace-detalles {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.enlace-detalles:hover {
+    color: #F27405;
+}
+
+.mensaje { 
+    color: #731702; 
+    font-size: 18px; 
+}

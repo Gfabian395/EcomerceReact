@@ -1,0 +1,28 @@
+.tarjeta-detalle {
+    border: 1px solid #02735E;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .nombre-producto {
+    font-size: 24px;
+    color: #014040;
+  }
+  
+  .imagen-producto {
+    width: 250px;
+    margin: 10px 0;
+  }
+  
+  .precio-producto {
+    font-size: 20px;
+    color: #F27405;
+  }
+  
+  .detalle-producto {
+    font-size: 16px;
+    color: #02735E;
+  }
+  

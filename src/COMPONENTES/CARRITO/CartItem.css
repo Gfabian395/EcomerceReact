@@ -1,0 +1,56 @@
+/* CartItem.css */
+
+.item-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background-color: #F1F8F6; /* Fondo claro para el contenedor del item */
+    border: 1px solid #02735E; /* Borde verde oscuro */
+    border-radius: 8px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 300px; /* Ajusta el ancho según sea necesario */
+  }
+  
+  .nombre-producto {
+    font-size: 20px;
+    color: #014040; /* Color oscuro para el nombre */
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .precio-producto {
+    font-size: 18px;
+    color: #03A678; /* Color verde para el precio */
+    margin-bottom: 8px;
+  }
+  
+  .cantidad-producto {
+    font-size: 16px;
+    color: #731702; /* Color marrón para la cantidad */
+    margin-bottom: 8px;
+  }
+  
+  .item-carrito img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Esquinas redondeadas para la imagen */
+    margin-bottom: 8px;
+  }
+  
+  .botón-eliminar {
+    background-color: #F27405; /* Color naranja para el botón de eliminar */
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .botón-eliminar:hover {
+    background-color: #e65c00; /* Color más oscuro al pasar el mouse sobre el botón */
+  }
+  

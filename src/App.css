@@ -1,0 +1,48 @@
+/* Estilos para el tema claro y oscuro */
+.luz {
+  background-color: #F27405;
+  color: #014040;
+}
+
+.oscuro {
+  background-color: #014040;
+  color: #F27405;
+}
+
+/* Estilos adicionales para tus componentes */
+.barra-navegacion {
+  background-color: #02735E;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.contenedor-detalle-item {
+  background-color: #03A678;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contenedor-lista-items {
+  background-color: #731702;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.carrito {
+  background-color: #F27405;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.checkout {
+  background-color: #02735E;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.error-pagina {
+  background-color: #731702;
+  color: #ffffff;
+  padding: 20px;
+}

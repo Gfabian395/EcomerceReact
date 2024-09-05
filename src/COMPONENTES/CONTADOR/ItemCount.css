@@ -1,0 +1,20 @@
+.contenedor-contador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contador {
+    font-size: 18px;
+    color: #014040;
+  }
+  
+  .botón-agregar {
+    background-color: #02735E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

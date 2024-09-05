@@ -1,0 +1,22 @@
+.contenedor-carrito {
+    padding: 20px;
+  }
+  
+  .botón-vaciar {
+    background-color: #F27405;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .enlace-checkout {
+    display: inline-block;
+    margin-top: 10px;
+    color: #03A678;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

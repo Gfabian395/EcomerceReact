@@ -1,0 +1,16 @@
+/* ContenedorDetalleItem.css */
+
+.mensaje-cargando {
+    font-size: 24px;
+    color: #03A678;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mensaje-error {
+    font-size: 20px;
+    color: #731702;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

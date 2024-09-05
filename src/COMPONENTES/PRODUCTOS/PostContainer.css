@@ -1,0 +1,31 @@
+/* PostContainer.css */
+
+.contenedor-posts {
+    padding: 16px;
+    background-color: #F1F8F6; /* Color de fondo más claro */
+}
+
+.imagen-carga {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.post {
+    font-size: 18px;
+    color: #014040;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #02735E; /* Borde color verde oscuro */
+    border-radius: 4px;
+    background-color: #ffffff; /* Fondo blanco para cada post */
+}
+
+.cargando {
+    font-size: 24px;
+    color: #03A678;
+    text-align: center;
+    margin: 16px 0;
+}

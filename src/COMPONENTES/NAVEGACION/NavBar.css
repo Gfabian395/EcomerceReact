@@ -1,0 +1,50 @@
+/* BarraNavegacion.css */
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #014040;
+    color: #ffffff;
+}
+
+.titulo {
+    font-size: 24px;
+    color: #03A678;
+}
+
+.titulo img {
+    height:80px; /* Ajusta el tamaño de la imagen del logo */
+    padding: 5px;
+    margin: 5px;
+}
+
+.enlace-categoria {
+    color: #F27405;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.enlace-categoria:hover {
+    color: #02735E;
+}
+
+.mensaje {
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.boton-cambiar-tema {
+    background-color: #731702;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton-cambiar-tema:hover {
+    background-color: #F27405;
+}

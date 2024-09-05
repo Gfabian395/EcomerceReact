@@ -1,0 +1,18 @@
+.enlace-carrito {
+    text-decoration: none;
+  }
+  
+  .contenedor-widget {
+    display: flex;
+    align-items: center;
+    background-color: #03A678;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cantidad-carrito {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  

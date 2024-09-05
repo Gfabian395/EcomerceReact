@@ -1,15 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { App } from './App.jsx'
-import './index.css'
-import { ThemeContextProvider } from './COMPONENTES/TEMAS/ThemeContext.jsx'
+import React from 'react';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './App.jsx';
+import './index.css';
+import { ThemeContextProvider } from './COMPONENTES/TEMAS/ThemeContext';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <ThemeContextProvider>
-
       <App />
-
     </ThemeContextProvider>
-  </React.StrictMode>,
-)
+  </StrictMode>,
+);
